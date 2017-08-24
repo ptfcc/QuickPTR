@@ -11,3 +11,6 @@ using Int2 = glm::ivec2;
 using Int3 = glm::ivec3;
 using Int4 = glm::ivec4;
 using Mat4 = glm::mat4x4;
+
+// Not a big fan of this, but since this is a tmp project, this will do. 
+using namespace glm;

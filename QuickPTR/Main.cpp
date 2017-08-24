@@ -1,10 +1,10 @@
-// This is just a very tmp for now. 
-#include "Math/MathUtils.h"
+// This is just a very tmp placeholder for now. 
+#include "Ray.h"
 #include <iostream>
 
 int main()
 {
-	Float2 aVector = Float2(1.0f, 1.0f);
-	Float2 anotherVec = Float2(2.0f, 3.53f);
+	Ray aRay = Ray(Float3(0.5f, 0.0f, -1.0f), Float3(0.0f, 1.0f, 0.0f));
+
 	return 0;
 }

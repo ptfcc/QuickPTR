@@ -122,9 +122,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Math\MathUtils.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Sphere.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Sphere.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
